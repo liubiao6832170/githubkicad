@@ -1,0 +1,97 @@
+EESchema Schematic File Version 4
+LIBS:IgtVgtTestEqument-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2850 2350 1150 700 
+U 5BAF9C1D
+F0 "power" 50
+F1 "power.sch" 50
+F2 "AC15-1" I L 2850 2550 50 
+F3 "AC15-2" I L 2850 2700 50 
+F4 "GND" I L 2850 2850 50 
+F5 "DC15V-1" O R 4000 2550 50 
+F6 "DC15V-2" O R 4000 2700 50 
+F7 "GND" O R 4000 3000 50 
+F8 "DC5V" O R 4000 2850 50 
+$EndSheet
+$Comp
+L Connector:Screw_Terminal_01x03 J1
+U 1 1 5BB00582
+P 2250 2650
+F 0 "J1" H 2170 2967 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 2170 2876 50  0000 C CNN
+F 2 "" H 2250 2650 50  0001 C CNN
+F 3 "~" H 2250 2650 50  0001 C CNN
+	1    2250 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2550 2850 2550
+Wire Wire Line
+	2450 2650 2700 2650
+Wire Wire Line
+	2700 2650 2700 2700
+Wire Wire Line
+	2700 2700 2850 2700
+Wire Wire Line
+	2450 2750 2650 2750
+Wire Wire Line
+	2650 2750 2650 2850
+Wire Wire Line
+	2650 2850 2850 2850
+$Sheet
+S 4550 2350 1200 1050
+U 5BB00EA4
+F0 "mcu" 50
+F1 "mcu.sch" 50
+F2 "DC15V-1" I L 4550 2550 50 
+F3 "DC15V-2" I L 4550 2700 50 
+F4 "GND" I L 4550 3000 50 
+F5 "start-test" I L 4550 3200 50 
+F6 "A" O R 5750 2650 50 
+F7 "G" O R 5750 2850 50 
+F8 "K" O R 5750 3100 50 
+F9 "DC5V" I L 4550 2850 50 
+$EndSheet
+Wire Wire Line
+	4000 2550 4550 2550
+Wire Wire Line
+	4000 2700 4550 2700
+Wire Wire Line
+	4000 3000 4550 3000
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5BB0137B
+P 4250 3200
+F 0 "SW1" H 3950 3150 50  0000 C CNN
+F 1 "SW_Push" H 3950 3050 50  0000 C CNN
+F 2 "" H 4250 3400 50  0001 C CNN
+F 3 "" H 4250 3400 50  0001 C CNN
+	1    4250 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 4100 3300 0    50   ~ 0
+start test
+Wire Wire Line
+	4050 3200 2650 3200
+Wire Wire Line
+	2650 3200 2650 2850
+Connection ~ 2650 2850
+Wire Wire Line
+	4450 3200 4550 3200
+Wire Wire Line
+	4000 2850 4550 2850
+$EndSCHEMATC
