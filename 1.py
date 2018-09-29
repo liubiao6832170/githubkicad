@@ -6,7 +6,7 @@ wnd=tk.Tk()
 wnd.title("serial")
 
 #add lable1
-lab1=ttk.Label(wnd,text='hello',width=20,relief='groove')
+lab1=ttk.Label(wnd,width=20,relief='groove')
 lab1.grid(row=0,column=1)
 #button click
 def b1click():
