@@ -1,39 +1,11 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:power
 LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
 LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
 LIBS:audio
 LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:liubiaolibsch
 LIBS:iso124-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -92,7 +64,7 @@ F 3 "" H 4450 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4850 3250 5150 3250
+	4850 3250 5000 3250
 $Comp
 L LM741 U?
 U 1 1 5BAF52D0
@@ -127,7 +99,7 @@ F 3 "" H 6700 3950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7100 3650 7400 3650
+	7100 3650 7150 3650
 Wire Wire Line
 	6150 3550 6500 3550
 Wire Wire Line
@@ -148,4 +120,58 @@ Wire Wire Line
 Wire Wire Line
 	5000 3900 5000 3250
 Connection ~ 5000 3250
+Wire Wire Line
+	7150 3650 7400 3650
+Wire Wire Line
+	5000 3250 5150 3250
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5BAF6314
+P 3500 3150
+F 0 "J?" H 3420 3367 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3420 3276 50  0000 C CNN
+F 2 "" H 3500 3150 50  0001 C CNN
+F 3 "~" H 3500 3150 50  0001 C CNN
+	1    3500 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5BAF63C3
+P 8100 3650
+F 0 "J?" H 8180 3642 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8180 3551 50  0000 L CNN
+F 2 "" H 8100 3650 50  0001 C CNN
+F 3 "~" H 8100 3650 50  0001 C CNN
+	1    8100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3150 4250 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5BAF68BC
+P 3800 3400
+F 0 "#PWR?" H 3800 3150 50  0001 C CNN
+F 1 "GND" H 3805 3227 50  0000 C CNN
+F 2 "" H 3800 3400 50  0001 C CNN
+F 3 "" H 3800 3400 50  0001 C CNN
+	1    3800 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3400 3800 3250
+Wire Wire Line
+	3800 3250 3700 3250
+$Comp
+L +15V #PWR?
+U 1 1 5BAF6A37
+P 5100 2700
+F 0 "#PWR?" H 5100 2550 50  0001 C CNN
+F 1 "+15V1" H 5100 2840 50  0000 C CNN
+F 2 "" H 5100 2700 50  0001 C CNN
+F 3 "" H 5100 2700 50  0001 C CNN
+	1    5100 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
