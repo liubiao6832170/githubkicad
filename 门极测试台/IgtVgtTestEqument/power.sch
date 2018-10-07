@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IgtVgtTestEqument-cache
+LIBS:igtvgtequment-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

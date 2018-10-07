@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IgtVgtTestEqument-cache
+LIBS:igtvgtequment-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -65,6 +66,7 @@ F6 "A" O R 5750 2650 50
 F7 "G" O R 5750 2850 50 
 F8 "K" O R 5750 3100 50 
 F9 "DC5V" I L 4550 2850 50 
+F10 "+15VDC" I L 4550 2450 50 
 $EndSheet
 Wire Wire Line
 	4000 2550 4550 2550
