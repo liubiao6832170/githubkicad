@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IgtVgtTestEqument-cache
+LIBS:igtvgtequment-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,10 +20,10 @@ AC15-1
 Text HLabel 3600 3800 0    50   Input ~ 0
 AC15-2
 $Comp
-L Device:D_Bridge_+A-A D?
+L Device:D_Bridge_+A-A D1
 U 1 1 5BAF9ED5
 P 4200 3600
-F 0 "D?" V 4246 3259 50  0000 R CNN
+F 0 "D1" V 4246 3259 50  0000 R CNN
 F 1 "D_Bridge_+A-A" V 4155 3259 50  0000 R CNN
 F 2 "" H 4200 3600 50  0001 C CNN
 F 3 "~" H 4200 3600 50  0001 C CNN
@@ -47,10 +48,10 @@ Wire Wire Line
 	3600 4300 3600 4000
 NoConn ~ 4200 4100
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 5BAFA09D
 P 5200 3250
-F 0 "C?" H 5315 3296 50  0000 L CNN
+F 0 "C3" H 5315 3296 50  0000 L CNN
 F 1 "C" H 5315 3205 50  0000 L CNN
 F 2 "" H 5238 3100 50  0001 C CNN
 F 3 "~" H 5200 3250 50  0001 C CNN
@@ -58,10 +59,10 @@ F 3 "~" H 5200 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5BAFA135
 P 5200 3850
-F 0 "C?" H 5315 3896 50  0000 L CNN
+F 0 "C4" H 5315 3896 50  0000 L CNN
 F 1 "C" H 5315 3805 50  0000 L CNN
 F 2 "" H 5238 3700 50  0001 C CNN
 F 3 "~" H 5200 3850 50  0001 C CNN
@@ -69,10 +70,10 @@ F 3 "~" H 5200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C1
 U 1 1 5BAFA213
 P 4850 3250
-F 0 "C?" H 4968 3296 50  0000 L CNN
+F 0 "C1" H 4968 3296 50  0000 L CNN
 F 1 "CP" H 4968 3205 50  0000 L CNN
 F 2 "" H 4888 3100 50  0001 C CNN
 F 3 "~" H 4850 3250 50  0001 C CNN
@@ -80,10 +81,10 @@ F 3 "~" H 4850 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C2
 U 1 1 5BAFA3C5
 P 4850 3850
-F 0 "C?" H 4968 3896 50  0000 L CNN
+F 0 "C2" H 4968 3896 50  0000 L CNN
 F 1 "CP" H 4968 3805 50  0000 L CNN
 F 2 "" H 4888 3700 50  0001 C CNN
 F 3 "~" H 4850 3850 50  0001 C CNN
@@ -118,10 +119,10 @@ Connection ~ 5200 3500
 Wire Wire Line
 	5200 3500 5200 3400
 $Comp
-L Regulator_Linear:L7815 U?
+L Regulator_Linear:L7815 U1
 U 1 1 5BAFB443
 P 5700 3000
-F 0 "U?" H 5700 3242 50  0000 C CNN
+F 0 "U1" H 5700 3242 50  0000 C CNN
 F 1 "L7815" H 5700 3151 50  0000 C CNN
 F 2 "" H 5725 2850 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5700 2950 50  0001 C CNN
@@ -129,10 +130,10 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L7915 U?
+L Regulator_Linear:L7915 U2
 U 1 1 5BAFB4D9
 P 5700 4100
-F 0 "U?" H 5700 3950 50  0000 C CNN
+F 0 "U2" H 5700 3950 50  0000 C CNN
 F 1 "L7915" H 5700 3859 50  0000 C CNN
 F 2 "" H 5700 3900 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 5700 4100 50  0001 C CNN
@@ -150,10 +151,10 @@ Wire Wire Line
 	5700 3500 5700 3300
 Connection ~ 5700 3500
 $Comp
-L Device:CP C?
+L Device:CP C5
 U 1 1 5BAFAE0B
 P 6100 3250
-F 0 "C?" H 6218 3296 50  0000 L CNN
+F 0 "C5" H 6218 3296 50  0000 L CNN
 F 1 "CP" H 6218 3205 50  0000 L CNN
 F 2 "" H 6138 3100 50  0001 C CNN
 F 3 "~" H 6100 3250 50  0001 C CNN
@@ -161,10 +162,10 @@ F 3 "~" H 6100 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5BAFAE43
 P 6400 3250
-F 0 "C?" H 6515 3296 50  0000 L CNN
+F 0 "C7" H 6515 3296 50  0000 L CNN
 F 1 "C" H 6515 3205 50  0000 L CNN
 F 2 "" H 6438 3100 50  0001 C CNN
 F 3 "~" H 6400 3250 50  0001 C CNN
@@ -172,10 +173,10 @@ F 3 "~" H 6400 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C6
 U 1 1 5BAFAE81
 P 6100 3850
-F 0 "C?" H 6218 3896 50  0000 L CNN
+F 0 "C6" H 6218 3896 50  0000 L CNN
 F 1 "CP" H 6218 3805 50  0000 L CNN
 F 2 "" H 6138 3700 50  0001 C CNN
 F 3 "~" H 6100 3850 50  0001 C CNN
@@ -183,10 +184,10 @@ F 3 "~" H 6100 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5BAFAEE9
 P 6400 3850
-F 0 "C?" H 6515 3896 50  0000 L CNN
+F 0 "C8" H 6515 3896 50  0000 L CNN
 F 1 "C" H 6515 3805 50  0000 L CNN
 F 2 "" H 6438 3700 50  0001 C CNN
 F 3 "~" H 6400 3850 50  0001 C CNN
@@ -260,10 +261,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 3000 7000 2850
 $Comp
-L Regulator_Linear:L7805 U?
+L Regulator_Linear:L7805 U3
 U 1 1 5BB02FF7
 P 7300 3000
-F 0 "U?" H 7300 3242 50  0000 C CNN
+F 0 "U3" H 7300 3242 50  0000 C CNN
 F 1 "L7805" H 7300 3151 50  0000 C CNN
 F 2 "" H 7325 2850 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 7300 2950 50  0001 C CNN
@@ -277,10 +278,10 @@ Wire Wire Line
 	7300 3300 7300 3500
 Connection ~ 7300 3500
 $Comp
-L Device:CP C?
+L Device:CP C9
 U 1 1 5BB043C8
 P 7700 3250
-F 0 "C?" H 7818 3296 50  0000 L CNN
+F 0 "C9" H 7818 3296 50  0000 L CNN
 F 1 "CP" H 7818 3205 50  0000 L CNN
 F 2 "" H 7738 3100 50  0001 C CNN
 F 3 "~" H 7700 3250 50  0001 C CNN
@@ -288,10 +289,10 @@ F 3 "~" H 7700 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C10
 U 1 1 5BB04408
 P 8050 3250
-F 0 "C?" H 8165 3296 50  0000 L CNN
+F 0 "C10" H 8165 3296 50  0000 L CNN
 F 1 "C" H 8165 3205 50  0000 L CNN
 F 2 "" H 8088 3100 50  0001 C CNN
 F 3 "~" H 8050 3250 50  0001 C CNN
