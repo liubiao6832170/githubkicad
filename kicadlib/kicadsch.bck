@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FRT5_separated
+D FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package, separate subsymbols
+K relay monostable
+F https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663
+$ENDCMP
+#
 #End Doc Library
