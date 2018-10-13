@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:单片机门极-cache
-LIBS:1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -18,167 +17,679 @@ $EndDescr
 $Comp
 L Regulator_Linear:L7805 U1
 U 1 1 5BC01029
-P 2750 1400
-F 0 "U1" H 2750 1642 50  0000 C CNN
-F 1 "L7805" H 2750 1551 50  0000 C CNN
-F 2 "" H 2775 1250 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2750 1350 50  0001 C CNN
-	1    2750 1400
+P 4350 1100
+F 0 "U1" H 4350 1342 50  0000 C CNN
+F 1 "L7805" H 4350 1251 50  0000 C CNN
+F 2 "" H 4375 950 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4350 1050 50  0001 C CNN
+	1    4350 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1 C3
 U 1 1 5BC010DC
-P 3450 1700
-F 0 "C3" H 3565 1746 50  0000 L CNN
-F 1 "CP1" H 3565 1655 50  0000 L CNN
-F 2 "" H 3450 1700 50  0001 C CNN
-F 3 "~" H 3450 1700 50  0001 C CNN
-	1    3450 1700
+P 5050 1550
+F 0 "C3" H 5165 1596 50  0000 L CNN
+F 1 "CP1" H 5165 1505 50  0000 L CNN
+F 2 "" H 5050 1550 50  0001 C CNN
+F 3 "~" H 5050 1550 50  0001 C CNN
+	1    5050 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 5BC0112D
-P 3950 1700
-F 0 "C4" H 4065 1746 50  0000 L CNN
-F 1 "C" H 4065 1655 50  0000 L CNN
-F 2 "" H 3988 1550 50  0001 C CNN
-F 3 "~" H 3950 1700 50  0001 C CNN
-	1    3950 1700
+P 5550 1550
+F 0 "C4" H 5665 1596 50  0000 L CNN
+F 1 "C" H 5665 1505 50  0000 L CNN
+F 2 "" H 5588 1400 50  0001 C CNN
+F 3 "~" H 5550 1550 50  0001 C CNN
+	1    5550 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1 C1
 U 1 1 5BC01249
-P 1700 1700
-F 0 "C1" H 1815 1746 50  0000 L CNN
-F 1 "CP1" H 1815 1655 50  0000 L CNN
-F 2 "" H 1700 1700 50  0001 C CNN
-F 3 "~" H 1700 1700 50  0001 C CNN
-	1    1700 1700
+P 3300 1550
+F 0 "C1" H 3415 1596 50  0000 L CNN
+F 1 "CP1" H 3415 1505 50  0000 L CNN
+F 2 "" H 3300 1550 50  0001 C CNN
+F 3 "~" H 3300 1550 50  0001 C CNN
+	1    3300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5BC0128F
-P 2150 1700
-F 0 "C2" H 2265 1746 50  0000 L CNN
-F 1 "C" H 2265 1655 50  0000 L CNN
-F 2 "" H 2188 1550 50  0001 C CNN
-F 3 "~" H 2150 1700 50  0001 C CNN
-	1    2150 1700
+P 3750 1550
+F 0 "C2" H 3865 1596 50  0000 L CNN
+F 1 "C" H 3865 1505 50  0000 L CNN
+F 2 "" H 3788 1400 50  0001 C CNN
+F 3 "~" H 3750 1550 50  0001 C CNN
+	1    3750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5BC01438
-P 1250 1400
-F 0 "J1" H 1170 1617 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1170 1526 50  0000 C CNN
-F 2 "kipcblib:CON2liubiao" H 1250 1400 50  0001 C CNN
-F 3 "~" H 1250 1400 50  0001 C CNN
-	1    1250 1400
+P 1550 1500
+F 0 "J1" H 1470 1717 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1470 1626 50  0000 C CNN
+F 2 "kipcblib:CON2liubiao" H 1550 1500 50  0001 C CNN
+F 3 "~" H 1550 1500 50  0001 C CNN
+	1    1550 1500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 1400 1700 1400
-Wire Wire Line
-	1700 1550 1700 1400
-Connection ~ 1700 1400
-Wire Wire Line
-	1700 1400 2150 1400
-Wire Wire Line
-	2150 1550 2150 1400
-Connection ~ 2150 1400
-Wire Wire Line
-	2150 1400 2450 1400
-Text HLabel 1500 2250 3    50   Input ~ 0
+Text HLabel 2450 2250 3    50   Input ~ 0
 GND
-Wire Wire Line
-	1500 2250 1500 2000
-Wire Wire Line
-	1500 1500 1450 1500
-Wire Wire Line
-	1700 1850 1700 2000
-Wire Wire Line
-	1700 2000 1500 2000
-Connection ~ 1500 2000
-Wire Wire Line
-	1500 2000 1500 1500
-Wire Wire Line
-	2150 1850 2150 2000
-Wire Wire Line
-	2150 2000 1700 2000
-Connection ~ 1700 2000
-Wire Wire Line
-	2750 1700 2750 2000
-Wire Wire Line
-	2750 2000 2150 2000
-Connection ~ 2150 2000
-Wire Wire Line
-	3050 1400 3450 1400
-Wire Wire Line
-	3450 1400 3450 1550
-Wire Wire Line
-	3950 1550 3950 1400
-Wire Wire Line
-	3950 1400 3450 1400
-Connection ~ 3450 1400
-Wire Wire Line
-	3450 1850 3450 2000
-Wire Wire Line
-	3450 2000 2750 2000
-Connection ~ 2750 2000
-Wire Wire Line
-	3950 1850 3950 2000
-Wire Wire Line
-	3950 2000 3450 2000
-Connection ~ 3450 2000
 $Comp
 L Device:R R1
 U 1 1 5BC01B6E
-P 4350 1550
-F 0 "R1" H 4420 1596 50  0000 L CNN
-F 1 "R" H 4420 1505 50  0000 L CNN
-F 2 "" V 4280 1550 50  0001 C CNN
-F 3 "~" H 4350 1550 50  0001 C CNN
-	1    4350 1550
+P 5950 1400
+F 0 "R1" H 6020 1446 50  0000 L CNN
+F 1 "R" H 6020 1355 50  0000 L CNN
+F 2 "" V 5880 1400 50  0001 C CNN
+F 3 "~" H 5950 1400 50  0001 C CNN
+	1    5950 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D1
 U 1 1 5BC01C4C
-P 4350 1850
-F 0 "D1" V 4388 1733 50  0000 R CNN
-F 1 "LED" V 4297 1733 50  0000 R CNN
-F 2 "" H 4350 1850 50  0001 C CNN
-F 3 "~" H 4350 1850 50  0001 C CNN
-	1    4350 1850
+P 5950 1700
+F 0 "D1" V 5988 1583 50  0000 R CNN
+F 1 "LED" V 5897 1583 50  0000 R CNN
+F 2 "" H 5950 1700 50  0001 C CNN
+F 3 "~" H 5950 1700 50  0001 C CNN
+	1    5950 1700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4350 2000 3950 2000
-Connection ~ 3950 2000
-Wire Wire Line
-	4350 1400 3950 1400
-Connection ~ 3950 1400
-Text HLabel 4750 1400 2    50   Input ~ 0
+Text HLabel 6350 1100 2    50   Input ~ 0
 DC5V
-Wire Wire Line
-	4750 1400 4350 1400
-Connection ~ 4350 1400
-Text Notes 950  1700 0    50   ~ 0
+Text Notes 1450 1750 0    50   ~ 0
 INPUT-AC
 $Comp
-L kicadsch:stc15w408as U?
-U 1 1 5BC16431
-P 2550 2750
-F 0 "U?" H 2875 2925 50  0000 C CNN
-F 1 "stc15w408as" H 2875 2834 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 2450 2650 50  0001 C CNN
-F 3 "" H 2550 2750 50  0001 C CNN
-	1    2550 2750
+L kicadsch:stc15w408as U2
+U 1 1 5BC1A546
+P 2950 4950
+F 0 "U2" H 3300 5125 50  0000 C CNN
+F 1 "stc15w408as" H 3300 5034 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 3100 5250 50  0001 C CNN
+F 3 "" H 2950 4950 50  0001 C CNN
+	1    2950 4950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Analog_DAC:MCP4822 U3
+U 1 1 5BC1A716
+P 4700 4900
+F 0 "U3" H 4550 5500 50  0000 C CNN
+F 1 "MCP4822" H 4400 5400 50  0000 C CNN
+F 2 "" H 5500 4600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf" H 5500 4600 50  0001 C CNN
+	1    4700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5100 4200 5100
+Wire Wire Line
+	3750 5000 4200 5000
+Wire Wire Line
+	2850 5000 2750 5000
+Wire Wire Line
+	2750 5000 2750 4900
+Wire Wire Line
+	2750 4900 4200 4900
+Wire Wire Line
+	2850 5100 2700 5100
+Wire Wire Line
+	2700 5100 2700 4800
+Wire Wire Line
+	2700 4800 4200 4800
+Text HLabel 4700 5400 3    50   Input ~ 0
+GND
+Text HLabel 4700 4500 1    50   Input ~ 0
+DC5V
+$Comp
+L Amplifier_Operational:LM741 U4
+U 1 1 5BC1C82C
+P 6150 4450
+F 0 "U4" H 6491 4496 50  0000 L CNN
+F 1 "LM741" H 6491 4405 50  0000 L CNN
+F 2 "" H 6200 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 6300 4600 50  0001 C CNN
+	1    6150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4800 5300 4800
+Wire Wire Line
+	5300 4800 5300 4350
+Wire Wire Line
+	5200 5100 5300 5100
+$Comp
+L Diode:1N4007 D4
+U 1 1 5BC1F3BB
+P 2600 1350
+F 0 "D4" V 2554 1429 50  0000 L CNN
+F 1 "1N4007" V 2645 1429 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2600 1175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2600 1350 50  0001 C CNN
+	1    2600 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4007 D5
+U 1 1 5BC1F4D4
+P 2600 1750
+F 0 "D5" V 2554 1829 50  0000 L CNN
+F 1 "1N4007" V 2645 1829 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2600 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2600 1750 50  0001 C CNN
+	1    2600 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4007 D2
+U 1 1 5BC1F557
+P 2300 1350
+F 0 "D2" V 2254 1429 50  0000 L CNN
+F 1 "1N4007" V 2400 1000 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2300 1175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2300 1350 50  0001 C CNN
+	1    2300 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4007 D3
+U 1 1 5BC1F60B
+P 2300 1750
+F 0 "D3" V 2254 1829 50  0000 L CNN
+F 1 "1N4007" V 2350 1350 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2300 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2300 1750 50  0001 C CNN
+	1    2300 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 1200 2450 1200
+Wire Wire Line
+	2300 1900 2450 1900
+Wire Wire Line
+	2300 1600 2300 1500
+Wire Wire Line
+	2600 1600 2600 1500
+Wire Wire Line
+	2450 1900 2450 2100
+Wire Wire Line
+	2450 2100 3300 2100
+Wire Wire Line
+	5950 2100 5950 1850
+Connection ~ 2450 1900
+Wire Wire Line
+	2450 1900 2600 1900
+Wire Wire Line
+	2450 2100 2450 2250
+Connection ~ 2450 2100
+Wire Wire Line
+	2450 1200 2450 1100
+Wire Wire Line
+	2450 1100 3300 1100
+Connection ~ 2450 1200
+Wire Wire Line
+	2450 1200 2600 1200
+Wire Wire Line
+	3300 1100 3300 1400
+Connection ~ 3300 1100
+Wire Wire Line
+	3300 1100 3750 1100
+Wire Wire Line
+	3750 1100 3750 1400
+Connection ~ 3750 1100
+Wire Wire Line
+	3750 1100 4050 1100
+Wire Wire Line
+	3300 1700 3300 2100
+Connection ~ 3300 2100
+Wire Wire Line
+	3300 2100 3750 2100
+Wire Wire Line
+	3750 1700 3750 2100
+Connection ~ 3750 2100
+Wire Wire Line
+	3750 2100 4350 2100
+Wire Wire Line
+	4350 1400 4350 2100
+Connection ~ 4350 2100
+Wire Wire Line
+	4350 2100 5050 2100
+Wire Wire Line
+	4650 1100 5050 1100
+Wire Wire Line
+	5050 1100 5050 1400
+Wire Wire Line
+	5550 1100 5050 1100
+Wire Wire Line
+	5550 1100 5550 1400
+Connection ~ 5050 1100
+Wire Wire Line
+	5950 1250 5950 1100
+Wire Wire Line
+	5950 1100 5550 1100
+Connection ~ 5550 1100
+Wire Wire Line
+	5550 1700 5550 2100
+Connection ~ 5550 2100
+Wire Wire Line
+	5550 2100 5950 2100
+Wire Wire Line
+	5050 1700 5050 2100
+Connection ~ 5050 2100
+Wire Wire Line
+	5050 2100 5550 2100
+Wire Wire Line
+	5950 1100 6350 1100
+Connection ~ 5950 1100
+Connection ~ 2600 1600
+Wire Wire Line
+	1750 1600 2600 1600
+Wire Wire Line
+	1750 1500 2300 1500
+Connection ~ 2300 1500
+NoConn ~ 2300 1600
+Text HLabel 2250 5700 0    50   Input ~ 0
+DC5V
+Wire Wire Line
+	2250 5700 2450 5700
+Text HLabel 2250 6050 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C5
+U 1 1 5BC313A1
+P 2450 5850
+F 0 "C5" H 2565 5896 50  0000 L CNN
+F 1 "C" H 2565 5805 50  0000 L CNN
+F 2 "" H 2488 5700 50  0001 C CNN
+F 3 "~" H 2450 5850 50  0001 C CNN
+	1    2450 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 5700
+Wire Wire Line
+	2450 5700 2850 5700
+Wire Wire Line
+	2250 6050 2450 6050
+Wire Wire Line
+	2450 6050 2450 6000
+Wire Wire Line
+	2850 5900 2850 6050
+Wire Wire Line
+	2850 6050 2450 6050
+Connection ~ 2450 6050
+Text HLabel 6050 4150 1    50   Input ~ 0
++15V
+Text HLabel 6050 4750 3    50   Input ~ 0
+-15V
+Wire Wire Line
+	6450 4450 6800 4450
+Wire Wire Line
+	5850 4550 5650 4550
+Wire Wire Line
+	6800 5100 6800 4450
+Connection ~ 6800 4450
+$Comp
+L Device:R R2
+U 1 1 5BC4D728
+P 5550 4350
+F 0 "R2" V 5343 4350 50  0000 C CNN
+F 1 "R" V 5434 4350 50  0000 C CNN
+F 2 "" V 5480 4350 50  0001 C CNN
+F 3 "~" H 5550 4350 50  0001 C CNN
+	1    5550 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BC4D7C3
+P 6250 5100
+F 0 "R6" V 6043 5100 50  0000 C CNN
+F 1 "R" V 6134 5100 50  0000 C CNN
+F 2 "" V 6180 5100 50  0001 C CNN
+F 3 "~" H 6250 5100 50  0001 C CNN
+	1    6250 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BC4D863
+P 5650 5300
+F 0 "R4" H 5720 5346 50  0000 L CNN
+F 1 "R" H 5720 5255 50  0000 L CNN
+F 2 "" V 5580 5300 50  0001 C CNN
+F 3 "~" H 5650 5300 50  0001 C CNN
+	1    5650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4350 5300 4350
+Wire Wire Line
+	5700 4350 5850 4350
+Wire Wire Line
+	6400 5100 6800 5100
+Wire Wire Line
+	6100 5100 5650 5100
+Wire Wire Line
+	5650 4550 5650 5100
+Text HLabel 5650 5550 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5650 5550 5650 5450
+Wire Wire Line
+	5650 5150 5650 5100
+Connection ~ 5650 5100
+$Comp
+L Amplifier_Operational:LM741 U5
+U 1 1 5BC55433
+P 6200 6650
+F 0 "U5" H 6541 6696 50  0000 L CNN
+F 1 "LM741" H 6541 6605 50  0000 L CNN
+F 2 "" H 6250 6700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 6350 6800 50  0001 C CNN
+	1    6200 6650
+	1    0    0    -1  
+$EndComp
+Text HLabel 6100 6350 1    50   Input ~ 0
++15V
+Text HLabel 6100 6950 3    50   Input ~ 0
+-15V
+Wire Wire Line
+	6500 6650 6850 6650
+Wire Wire Line
+	5900 6750 5700 6750
+Wire Wire Line
+	6850 7300 6850 6650
+Connection ~ 6850 6650
+$Comp
+L Device:R R3
+U 1 1 5BC55441
+P 5600 6550
+F 0 "R3" V 5393 6550 50  0000 C CNN
+F 1 "R" V 5484 6550 50  0000 C CNN
+F 2 "" V 5530 6550 50  0001 C CNN
+F 3 "~" H 5600 6550 50  0001 C CNN
+	1    5600 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5BC55448
+P 6300 7300
+F 0 "R7" V 6093 7300 50  0000 C CNN
+F 1 "R" V 6184 7300 50  0000 C CNN
+F 2 "" V 6230 7300 50  0001 C CNN
+F 3 "~" H 6300 7300 50  0001 C CNN
+	1    6300 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5BC5544F
+P 5700 7500
+F 0 "R5" H 5770 7546 50  0000 L CNN
+F 1 "R" H 5770 7455 50  0000 L CNN
+F 2 "" V 5630 7500 50  0001 C CNN
+F 3 "~" H 5700 7500 50  0001 C CNN
+	1    5700 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6550 5900 6550
+Wire Wire Line
+	6450 7300 6850 7300
+Wire Wire Line
+	6150 7300 5700 7300
+Wire Wire Line
+	5700 6750 5700 7300
+Text HLabel 5700 7750 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5700 7750 5700 7650
+Wire Wire Line
+	5700 7350 5700 7300
+Connection ~ 5700 7300
+Wire Wire Line
+	5300 5100 5300 6550
+Wire Wire Line
+	5300 6550 5450 6550
+Text Notes 4350 5450 0    50   ~ 0
+DAC
+Text Notes 2950 6100 0    50   ~ 0
+MCU
+$Comp
+L Transistor_FET:IRF540N Q1
+U 1 1 5BC5BD98
+P 7650 4450
+F 0 "Q1" H 7855 4496 50  0000 L CNN
+F 1 "IRF540N" H 7855 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7900 4375 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7650 4450 50  0001 L CNN
+	1    7650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5BC5BE04
+P 7200 4450
+F 0 "R8" V 6993 4450 50  0000 C CNN
+F 1 "R" V 7084 4450 50  0000 C CNN
+F 2 "" V 7130 4450 50  0001 C CNN
+F 3 "~" H 7200 4450 50  0001 C CNN
+	1    7200 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 4450 7050 4450
+Wire Wire Line
+	7350 4450 7450 4450
+$Comp
+L Device:R R10
+U 1 1 5BC5EC26
+P 7750 3950
+F 0 "R10" H 7820 3996 50  0000 L CNN
+F 1 "R" H 7820 3905 50  0000 L CNN
+F 2 "" V 7680 3950 50  0001 C CNN
+F 3 "~" H 7750 3950 50  0001 C CNN
+	1    7750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5BC5EF3E
+P 7750 4950
+F 0 "R11" H 7820 4996 50  0000 L CNN
+F 1 "R" H 7820 4905 50  0000 L CNN
+F 2 "" V 7680 4950 50  0001 C CNN
+F 3 "~" H 7750 4950 50  0001 C CNN
+	1    7750 4950
+	1    0    0    -1  
+$EndComp
+Text HLabel 7750 3800 1    50   Input ~ 0
++15V
+Wire Wire Line
+	7750 4250 7750 4100
+Wire Wire Line
+	7750 4650 7750 4750
+Text HLabel 7750 5250 3    50   Input ~ 0
+GND
+Wire Wire Line
+	7750 5100 7750 5200
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5BC6425F
+P 8650 4750
+F 0 "J2" H 8730 4742 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8730 4651 50  0000 L CNN
+F 2 "" H 8650 4750 50  0001 C CNN
+F 3 "~" H 8650 4750 50  0001 C CNN
+	1    8650 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4750 7750 4750
+Connection ~ 7750 4750
+Wire Wire Line
+	7750 4750 7750 4800
+Wire Wire Line
+	8450 4850 8250 4850
+Wire Wire Line
+	8250 4850 8250 5200
+Wire Wire Line
+	8250 5200 7750 5200
+Connection ~ 7750 5200
+Wire Wire Line
+	7750 5200 7750 5250
+$Comp
+L Device:R R9
+U 1 1 5BC67E29
+P 7200 6650
+F 0 "R9" V 6993 6650 50  0000 C CNN
+F 1 "R" V 7084 6650 50  0000 C CNN
+F 2 "" V 7130 6650 50  0001 C CNN
+F 3 "~" H 7200 6650 50  0001 C CNN
+	1    7200 6650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 6650 7050 6650
+$Comp
+L Transistor_FET:BF244A Q2
+U 1 1 5BC69F8D
+P 7750 6650
+F 0 "Q2" H 7941 6696 50  0000 L CNN
+F 1 "BF244A" H 7941 6605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7950 6575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BF/BF244A.pdf" H 7750 6600 50  0001 L CNN
+	1    7750 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 6650 7350 6650
+$Comp
+L Device:R R12
+U 1 1 5BC6BED5
+P 7850 6100
+F 0 "R12" H 7780 6054 50  0000 R CNN
+F 1 "R" H 7780 6145 50  0000 R CNN
+F 2 "" V 7780 6100 50  0001 C CNN
+F 3 "~" H 7850 6100 50  0001 C CNN
+	1    7850 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 6450 7850 6350
+Text HLabel 7850 5750 1    50   Input ~ 0
++15V
+$Comp
+L Device:R R13
+U 1 1 5BC6DF9D
+P 7850 7350
+F 0 "R13" H 7780 7304 50  0000 R CNN
+F 1 "R" H 7780 7395 50  0000 R CNN
+F 2 "" V 7780 7350 50  0001 C CNN
+F 3 "~" H 7850 7350 50  0001 C CNN
+	1    7850 7350
+	-1   0    0    1   
+$EndComp
+Text HLabel 7850 7850 3    50   Input ~ 0
+GND
+Wire Wire Line
+	7850 6850 7850 7200
+Wire Wire Line
+	7850 7850 7850 7500
+Wire Wire Line
+	7850 5950 7850 5750
+$Comp
+L Amplifier_Operational:LM741 U6
+U 1 1 5BC77FD9
+P 9200 6250
+F 0 "U6" H 9541 6204 50  0000 L CNN
+F 1 "LM741" H 9541 6295 50  0000 L CNN
+F 2 "" H 9250 6300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 9350 6400 50  0001 C CNN
+	1    9200 6250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8900 6350 7850 6350
+Connection ~ 7850 6350
+Wire Wire Line
+	7850 6350 7850 6250
+Text HLabel 9100 5950 1    50   Input ~ 0
+-15V
+Text HLabel 9100 6550 3    50   Input ~ 0
++15V
+$Comp
+L Transistor_FET:IRF9540N Q3
+U 1 1 5BC7D44C
+P 9950 6250
+F 0 "Q3" H 10155 6204 50  0000 L CNN
+F 1 "IRF9540N" H 10155 6295 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10150 6175 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 9950 6250 50  0001 L CNN
+	1    9950 6250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9500 6250 9750 6250
+$Comp
+L Device:R R14
+U 1 1 5BC7F66D
+P 10050 5750
+F 0 "R14" H 9980 5704 50  0000 R CNN
+F 1 "R" H 9980 5795 50  0000 R CNN
+F 2 "" V 9980 5750 50  0001 C CNN
+F 3 "~" H 10050 5750 50  0001 C CNN
+	1    10050 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10050 5900 10050 5950
+Text HLabel 10050 5400 1    50   Input ~ 0
++15V
+Wire Wire Line
+	10050 5600 10050 5400
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5BC83ED7
+P 10300 6800
+F 0 "J3" H 10380 6792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10380 6701 50  0000 L CNN
+F 2 "" H 10300 6800 50  0001 C CNN
+F 3 "~" H 10300 6800 50  0001 C CNN
+	1    10300 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 6800 10050 6800
+Wire Wire Line
+	10050 6800 10050 6450
+Text HLabel 10050 7200 3    50   Input ~ 0
+GND
+Wire Wire Line
+	10050 7200 10050 6900
+Wire Wire Line
+	10050 6900 10100 6900
+Wire Wire Line
+	8900 6150 8750 6150
+Wire Wire Line
+	8750 6150 8750 5600
+Wire Wire Line
+	8750 5600 9650 5600
+Wire Wire Line
+	9650 5600 9650 5950
+Wire Wire Line
+	9650 5950 10050 5950
+Connection ~ 10050 5950
+Wire Wire Line
+	10050 5950 10050 6050
 $EndSCHEMATC
