@@ -1,6 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP FRT5_separated
+$CMP 128*64
+D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
+K display LCD graphic
+F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+$ENDCMP
+#
+$CMP AG12864E
+D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
+K display LCD graphic
+F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+$ENDCMP
+#
+$CMP RELAY-5
 D FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package, separate subsymbols
 K relay monostable
 F https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663
