@@ -20,7 +20,7 @@ U 1 1 5BC01029
 P 4400 1850
 F 0 "U1" H 4400 2092 50  0000 C CNN
 F 1 "L7805" H 4400 2001 50  0000 C CNN
-F 2 "" H 4425 1700 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4425 1700 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4400 1800 50  0001 C CNN
 	1    4400 1850
 	1    0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 5BC1A716
 P 7250 7600
 F 0 "U3" H 7100 8200 50  0000 C CNN
 F 1 "MCP4822" H 6950 8100 50  0000 C CNN
-F 2 "" H 8050 7300 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 8050 7300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf" H 8050 7300 50  0001 C CNN
 	1    7250 7600
 	1    0    0    -1  
@@ -140,7 +140,7 @@ U 1 1 5BC1C82C
 P 8650 7150
 F 0 "U4" H 8991 7196 50  0000 L CNN
 F 1 "LM741" H 8991 7105 50  0000 L CNN
-F 2 "" H 8700 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8700 7200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 8800 7300 50  0001 C CNN
 	1    8650 7150
 	1    0    0    -1  
@@ -366,7 +366,7 @@ U 1 1 5BC55433
 P 8700 9350
 F 0 "U5" H 9041 9396 50  0000 L CNN
 F 1 "LM741" H 9041 9305 50  0000 L CNN
-F 2 "" H 8750 9400 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8750 9400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 8850 9500 50  0001 C CNN
 	1    8700 9350
 	1    0    0    -1  
@@ -554,7 +554,7 @@ U 1 1 5BC77FD9
 P 11700 8950
 F 0 "U6" H 12041 8904 50  0000 L CNN
 F 1 "LM741" H 12041 8995 50  0000 L CNN
-F 2 "" H 11750 9000 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 11750 9000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 11850 9100 50  0001 C CNN
 	1    11700 8950
 	1    0    0    1   
@@ -942,7 +942,7 @@ U 1 1 5BC4C745
 P 16500 8700
 F 0 "U9" H 16841 8746 50  0000 L CNN
 F 1 "LM311" H 16841 8655 50  0000 L CNN
-F 2 "" H 16500 8700 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 16500 8700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm311.pdf" H 16500 8700 50  0001 C CNN
 	1    16500 8700
 	1    0    0    1   
@@ -1027,7 +1027,7 @@ U 1 1 5BC8C251
 P 3300 6700
 F 0 "DS1" H 3050 7650 50  0000 C CNN
 F 1 "128*64" H 3050 7550 50  0000 C CNN
-F 2 "LCD128*64" H 3300 5800 50  0001 C CIN
+F 2 "Display:AG12864E" H 3300 5800 50  0001 C CIN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php" H 3500 6500 50  0001 C CNN
 	1    3300 6700
 	1    0    0    -1  
@@ -1269,7 +1269,7 @@ U 1 1 5BCED82B
 P 10400 3350
 F 0 "U8" H 10400 3200 50  0000 C CNN
 F 1 "L7915" H 10400 3109 50  0000 C CNN
-F 2 "" H 10400 3150 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10400 3150 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 10400 3350 50  0001 C CNN
 	1    10400 3350
 	1    0    0    -1  
@@ -1588,7 +1588,7 @@ U 1 1 5BD93E69
 P 17300 1850
 F 0 "U10" H 17300 2092 50  0000 C CNN
 F 1 "L7812" H 17300 2001 50  0000 C CNN
-F 2 "" H 17325 1700 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 17325 1700 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 17300 1800 50  0001 C CNN
 	1    17300 1850
 	1    0    0    -1  
